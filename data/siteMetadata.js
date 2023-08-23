@@ -3,27 +3,27 @@ import { RiShoppingBagLine, RiCarLine } from 'react-icons/ri'
 import { IoFastFoodOutline } from 'react-icons/io5'
 
 const siteMetadata = {
-  title: 'Best Nextjs Tailwind Portfolio',
+  title: 'Mhamed Meguitif',
   description:
     'This is where you can learn about me and my work. I am a full stack developer and I love to build things.',
   author: 'Curtis Warcup',
-  authorHeadline: 'Full Stack Developer, amateur pizza critic 🍕',
+  authorHeadline: 'Odoo Developer, Workflow Enthusiast, Coffee Lover ☕',
   authorAbout:
-    "Hi, I'm Curtis, a full stack developer. I created this to help my mom create a website for all her crazy business ideas. I hope you like it!",
+    "Welcome to my digital space! I'm passionate about crafting seamless solutions within the Odoo ecosystem. As an Odoo Developer, I specialize in turning intricate business needs into intuitive software. Let's innovate together",
   authorAboutExtended:
-    "Curtis is a Canadian-born, living in beautify Vancouver, BC. \n \n In his personal life, Curtis is an avid cyclist and health nut. He enjoys making weekly meal preps and running with his dog. When he's not coding, exercising, or cooking, Curtis can be found in various mechanical keyboard enthusiast forums, scoping out his next purchase. I also like eating food, especially pizza.",
+    "Hello, I'm M'hamed, an Odoo Developer based in the vibrant city of Oran, Algeria. Beyond coding, I'm an explorer who savors the flavors of Algerian cuisine and embraces life's simple joys. Join me on a journey of innovation and tradition as we navigate the world of Odoo together.",
   socials: {
-    twitter: 'https://twitter.com/curtiswarcup',
-    github: 'https://github.com/Cwarcup',
-    linkedin: 'https://www.linkedin.com/in/curtiswarcup/',
-    instagram: 'https://www.instagram.com/curtiswarcup/',
-    facebook: 'https://www.facebook.com/curtiswarcup',
+    twitter: 'https://twitter.com/MMeguitif',
+    github: 'https://github.com/mhamedmeguitif',
+    linkedin: 'https://www.linkedin.com/in/mhamed-meguitif-2068b6196/',
+    instagram: 'https://www.instagram.com/meguitifmhamed/',
+    facebook: 'https://www.facebook.com/mhamed.meguitif',
   },
-  email: 'curtis.gwarcup@gmail.com',
-  phoneNumber: '123-456-7890',
+  email: 'm.meguitif@esi-sba.dz',
+  phoneNumber: '+213796781675',
   contactTitle: 'Get in touch',
   contactSubtitle:
-    "I am currently making banging pizza's and amazing websites. If you want to get in touch, please use the form below.",
+    "From brewing coffee to crafting innovative Odoo solutions, I'm always up for a stimulating conversation. Feel free to get in touch using the form below.",
   analytics: {
     plausibleDataDomain: 'https://cwarcup.com/', // e.g. tailwind-nextjs-starter-blog.vercel.app
     googleAnalyticsId: 'G-XXXXXXX', // e.g. UA-000000-2 or G-XXXXXXX
@@ -58,15 +58,15 @@ const siteMetadata = {
   siteRepo: 'https://github.com/Cwarcup/',
   offerings: [
     {
-      title: 'Pizza Delivery',
+      title: 'Custom Odoo Development',
       description:
-        'I will teach you how to properly deliver pizza, ensuring that your customers are happy and your tips are high. Most pizza delivery drivers are not taught how to properly deliver pizza, and as a result, they are not making the most money they could be. Have you ever received a pizza that was cold, soggy, or missing toppings? Hire me to teach you how to deliver pizza properly, and you will never have to worry about that again.',
+        'Welcome to a world of tailored solutions that transform your business ambitions into reality. With my deep expertise in Odoo development, I craft bespoke modules and applications that resonate with your unique requirements. From enhancing customer experiences to optimizing intricate workflows, my custom Odoo development services are designed to elevate your operations to the next level.',
       testimonial:
-        '“Curtis is a great pizza delivery person. He helped me to understand my strengths and weaknesses and how to improve my performance. I would highly recommend him to anyone looking to improve their performance.”',
-      testimonialAuthor: 'Elon Musk',
-      testimonialAuthorTitle: 'CEO at Dumpster Fire, Inc.',
+        '',
+      testimonialAuthor: '',
+      testimonialAuthorTitle: '',
       imgUrl:
-        'https://images.unsplash.com/photo-1594392175511-30eca83d51c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80',
+        'https://images.unsplash.com/photo-1617042375876-a13e36732a04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
       imageAttribution: 'Photo by @dan__burton on Unsplash',
     },
     {
@@ -83,17 +83,17 @@ const siteMetadata = {
   ],
   testimonial: {
     comment:
-      '“Curtis is a great pizza delivery person. He helped me to understand my strengths and weaknesses and how to improve my performance. I would highly recommend him to anyone looking to improve their performance.”',
-    author: 'Elon Musk',
-    authorTitle: 'CEO at Dumpster Fire, Inc.',
+      '“Success is the sum of small efforts, repeated day in and day out.”',
+    author: 'Robert Collier',
+    authorTitle: 'American author',
     imgUrl:
-      'https://images.unsplash.com/photo-1579047917338-a6a69144fe63?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80',
+      'https://images.unsplash.com/photo-1610725954918-8f791efcda3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60',
     imageAttribution: 'Photo by @johanemanuel on Unsplash',
   },
   featureSection: {
     title: 'Why Choose Me?',
     description:
-      'I am a full stack developer and I love to build things. I can also make a crappy pizza.',
+      "I'm an Odoo Developer with a strong passion for crafting elegant solutions and a deep love for coffee. From coding to creating the perfect brew, I'm dedicated to excellence in all that I do.",
     //TODO also need to update the features array in the FeatureSection component
   },
   experience: {
