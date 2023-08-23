@@ -1,19 +1,19 @@
-import { RiRunLine, RiSignalWifi3Line } from 'react-icons/ri'
+import { RiComputerLine, RiTeamFill } from 'react-icons/ri'
 import siteMetadata from '@/data/siteMetadata'
 
 // TODO: Add your own features here. Make sure to add the icon from Remix-Design's repo:
 const features = [
   {
-    name: 'Pizza Delivery',
+    name: 'Technical Expertise',
     description:
-      'I will teach you how to properly deliver pizza, ensuring that your customers are happy and your tips are high. Most pizza delivery drivers are not taught how to properly deliver pizza, and as a result, they are not making the most money they could be.',
-    icon: RiRunLine,
+      'With a solid educational foundation in Computer Science and a degree from the Higher School in Computer Science of Sidi Bel Abbès 08-MAY-1945, coupled with my specialization in Computer Systems Engineering, I possess a deep understanding of software development, algorithms, and system architecture. My hands-on experience in coding, coupled with my passion for staying updated with the latest industry trends, ensures that I can deliver innovative and efficient solutions to complex technical challenges.',
+    icon: RiComputerLine,
   },
   {
-    name: 'Pizza Making',
+    name: 'Collaborative Mindset',
     description:
-      'This three-hour pizza class will offer our attendees the opportunity to craft homemade dough, prepare the pizza and cook a delicious meal to enjoy at the end of class.',
-    icon: RiSignalWifi3Line,
+      " Collaboration lies at the heart of effective software development. Having worked on diverse projects and within cross-functional teams, I've honed my communication skills and adaptability. My ability to understand the unique perspectives of team members, along with my dedication to transparent communication, ensures that I contribute positively to team dynamics. I firmly believe that the best solutions are born through synergy and cooperation.",
+    icon: RiTeamFill,
   },
 ]
 const FeatureSection = () => {

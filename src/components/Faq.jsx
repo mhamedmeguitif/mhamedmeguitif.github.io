@@ -3,24 +3,24 @@ import { motion } from 'framer-motion'
 
 const faqs = [
   {
-    question: 'What flour is the best for pizza dough?',
+    question: 'What is Odoo, and what does it offer?',
     answer:
-      'You can make pizza with bread flour or all-purpose flour. Bread flour is the best option because it has a higher protein content which means when it’s mixed with water, it has more gluten in the dough. Gluten is what makes the dough stretchy and gives it a chewier crust.',
+      "Odoo is an open-source business management software suite that provides a wide range of integrated applications for various business needs. It covers functionalities such as sales, CRM, inventory management, manufacturing, human resources, accounting, and more. Odoo's modular structure allows businesses to choose the specific applications they need and seamlessly integrate them to create a comprehensive business management solution.",
   },
   {
-    question: 'Can I use a rolling pin, or is that cheating?',
+    question: 'Can I customize Odoo to fit my business requirements?',
     answer:
       'Professional pizzaiolos are experts in stretchy and throwing dough, and the more you practice, you will be able to. But there is no shame in using a rolling pin as you learn about the best way to stretch your dough..',
   },
   {
-    question: 'How to make a pizza without cheese?',
+    question: 'Is Odoo suitable for small businesses as well?',
     answer:
-      'What is wrong with you? Just kidding. Cheeseless pizza is fairly new, but it’s gaining popularity for those with dietary conditions or even some vegans. You can use cashew cheese or try some of the non-dairy shreds available in most supermarkets. Nutritional yeast is a common product that has a nutty, cheesy taste. Or you could skip the cheese and go veggie-heavy.',
+      "Absolutely, Odoo caters to businesses of all sizes, including small businesses. It offers a scalable solution, allowing small businesses to start with the essential modules they require and gradually expand their usage as they grow. Odoo's cost-effectiveness, flexibility, and comprehensive feature set make it a popular choice for small and medium-sized enterprises looking for an integrated and efficient business management system.",
   },
   {
-    question: 'Should I use fresh tomatoes or canned?',
+    question: 'How much does Odoo cost?',
     answer:
-      'According to the experts, canned tomatoes are best for making pizza sauce. Fresh tomatoes are fine when in season, but they are often too watery, and the flavor is inconsistent.',
+      ' Odoo offers both a community edition and an enterprise edition. The community edition is open-source and free to use, while the enterprise edition comes with additional features and support and is available at a subscription cost. The pricing for the enterprise edition varies based on the number of users and the specific modules you need. You can contact Odoo sales for detailed pricing information.',
   },
 ]
 

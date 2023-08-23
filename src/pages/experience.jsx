@@ -5,37 +5,42 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { RiLinksLine } from 'react-icons/ri'
 import siteMetadata from '@/data/siteMetadata'
-import logoApple from '@/images/logos/apple.svg'
+import logoInsidjam from '@/images/logos/insidjam.png'
+import logoSogesi from '@/images/logos/sogesi.png'
 
 // TODO: If you want to include the logo of the company, I suggesting importing the svg from Remix-Design's repo: https://github.com/Remix-Design/RemixIcon/tree/master/icons/Logos
 
 // TODO: Add your own work experience here
 const experiences = [
   {
-    title: 'Lead',
-    company: 'Apple',
-    date: '2018 - Present',
+    title: 'Technical',
+    company: 'Odoo Developer',
+    date: 'Jan 2023 - Present',
     description: [
-      'Supervise a team of 100+ employees across all areas of the business, with approximately 60 team members daily',
-      'Develop and facilitate daily storewide meetings, workshops, and team training & on-boarding',
-      'Created and rolled out business training leading to +50%  business related connections, later being implemented market wide to all retail store',
+      'Design and implementation of ODOO custom apps.',
+      'Analyze the Scope document.',
+      'Create a low level requirement document in discussion with different teams.',
+      'Follow best practices in Software development to ensure the readability and maintainability of the code.',
+      'Create a custom module in ODOO to meet the specific domain requirement.',
     ],
-    location: 'Vancouver, BC',
-    link: { url: 'https://www.apple.com/ca/', label: 'Apple' },
-    logo: logoApple,
+    location: 'Boumerdès , Algeria',
+    link: { url: 'https://www.insidjam.com/', label: 'insidjam' },
+    logo: logoInsidjam,
   },
   {
-    title: 'Genius',
-    company: 'Apple',
-    date: '2016 - 2018',
+    title: 'Technical Odoo Developer',
+    company: 'Odoo Developer',
+    date: 'Sep 2022 - Dec 2022',
     description: [
-      'Provided technical support to customers, including troubleshooting, diagnosing, and repairing hardware and software issues',
-      'Strong people skills and a knack for problem solving',
-      'Maintain composure, provide empathy and customer focus while troubleshooting and solving technical issues',
+      'Design and implementation of ODOO custom apps.',
+      'Re-use the features available in ODOO to fulfill the Scope objectives.',
+      'Follow source code checking process to maintain the code in Git Version Control.',
+      'Propose several enhancements for the existing module and apps.',
+      'Successfully acting like scrum master.'
     ],
     location: 'Vancouver, BC',
-    link: { url: 'https://www.apple.com/ca/', label: 'Apple' },
-    logo: logoApple,
+    link: { url: 'https://www.apple.com/ca/', label: 'Sogesi' },
+    logo: logoSogesi,
   },
 ]
 

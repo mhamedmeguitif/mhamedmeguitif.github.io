@@ -55,12 +55,19 @@ const Contact = () => {
       message: message,
     }
 
+    console.log( "zero  ==> " , process)
+    console.log( "first ==> " , process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID)
+    
+    console.log( "second ==> " , process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID)
+    
+    console.log( "third ==> " , process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_USER_ID)
+
     emailjs
       .send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        'service_i5g50uw',
+        'template_a63safq',
         templateParams,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_USER_ID
+        'xM99-bBFUAkRryXvo'
       )
       .then(
         (response) => {

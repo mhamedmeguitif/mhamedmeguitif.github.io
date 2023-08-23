@@ -44,23 +44,6 @@ const Offerings = () => {
                   </div>
                 </div>
               </div>
-              <div className="pt-6 mt-8 border-t border-primaryText-100 dark:border-primaryText-700/40">
-                <blockquote>
-                  <div>
-                    <p className="text-base text-primaryText-600 dark:text-primaryText-400">
-                      {siteMetadata.offerings[0].testimonial}
-                    </p>
-                  </div>
-                  <footer className="mt-3">
-                    <div className="flex items-center space-x-3">
-                      <div className="text-base font-medium text-primaryText-500">
-                        {siteMetadata.offerings[0].testimonialAuthor},{' '}
-                        {siteMetadata.offerings[0].testimonialAuthorTitle}
-                      </div>
-                    </div>
-                  </footer>
-                </blockquote>
-              </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
