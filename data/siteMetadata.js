@@ -5,7 +5,7 @@ import { IoFastFoodOutline } from 'react-icons/io5'
 const siteMetadata = {
   title: 'Mhamed Meguitif',
   description:
-    'This is where you can learn about me and my work. I am a full stack developer and I love to build things.',
+    'This is where you can learn about me and my work. I an odoo developer and I love to build things.',
   author: 'Mhamed Meguitif',
   authorHeadline: 'Odoo Developer, Workflow Enthusiast, Coffee Lover ☕',
   authorAbout:
@@ -25,7 +25,7 @@ const siteMetadata = {
   contactSubtitle:
     "From brewing coffee to crafting innovative Odoo solutions, I'm always up for a stimulating conversation. Feel free to get in touch using the form below.",
   analytics: {
-    plausibleDataDomain: 'https://cwarcup.com/', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'https://meguitifmhamed.com/', // e.g. tailwind-nextjs-starter-blog.vercel.app
     googleAnalyticsId: 'G-XXXXXXX', // e.g. UA-000000-2 or G-XXXXXXX
   },
   // TODO: Add the name of the navbar items and the corresponding page. Used in the Header and Footer components.
