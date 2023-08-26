@@ -53,14 +53,14 @@ export default function Resume() {
     setIsDownloading(true);
 
     try {
-      const cvFilePath = '/my-cv.pdf'; // Adjust the path if needed
+      const cvFilePath = 'cv_2023.pdf'; // Adjust the path if needed
       const response = await fetch(cvFilePath);
       const blob = await response.blob();
 
       const downloadUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = downloadUrl;
-      link.download = 'my-cv.pdf';
+      link.download = 'cv_2023.pdf';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
