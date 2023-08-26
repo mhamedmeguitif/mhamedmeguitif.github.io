@@ -40,7 +40,7 @@ const experiences = [
       'Successfully acting like scrum master.'
     ],
     location: 'Vancouver, BC',
-    link: { url: 'https://www.apple.com/ca/', label: 'Sogesi' },
+    link: { url: 'https://sogesi-dz.com/', label: 'Sogesi' },
     logo: logoSogesi,
   },
 ]
@@ -92,7 +92,7 @@ export default function Resume() {
       </button>
       {/* Loading icon */}
       {isDownloading && <span className="ml-2 animate-spin">&#8987;</span>}
-        <h2 className="mb-6 text-3xl font-bold tracking-tight text-primaryText-800 dark:text-primaryText-100 sm:text-4xl">
+        <h2 className="mb-10 mt-10 text-3xl font-bold tracking-tight text-primaryText-800 dark:text-primaryText-100 sm:text-4xl">
           Work Experience
         </h2>
         <ul
