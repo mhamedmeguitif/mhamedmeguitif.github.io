@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Head from 'next/head'
-
+import React, { useState } from 'react';
+import { FaDownload } from 'react-icons/fa';
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import { RiLinksLine } from 'react-icons/ri'
@@ -45,6 +46,30 @@ const experiences = [
 ]
 
 export default function Resume() {
+  const [isDownloading, setIsDownloading] = useState(false);
+  const handleDownload = async () => {
+    if (isDownloading) return;
+
+    setIsDownloading(true);
+
+    try {
+      const cvFilePath = '/my-cv.pdf'; // Adjust the path if needed
+      const response = await fetch(cvFilePath);
+      const blob = await response.blob();
+
+      const downloadUrl = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = downloadUrl;
+      link.download = 'my-cv.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Download error:', error);
+    }
+
+    setIsDownloading(false);
+  };
   return (
     <>
       <Head>
@@ -58,6 +83,15 @@ export default function Resume() {
         title={siteMetadata.experience.title}
         intro={siteMetadata.experience.intro}
       >
+        <button
+        onClick={handleDownload}
+        className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white border border-transparent rounded-md bg-accent-500 hover:bg-accent-600 focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2 dark:text-slate-800"
+        disabled={isDownloading}
+      >
+       {isDownloading ? 'Downloading...' : 'Download CV'}
+      </button>
+      {/* Loading icon */}
+      {isDownloading && <span className="ml-2 animate-spin">&#8987;</span>}
         <h2 className="mb-6 text-3xl font-bold tracking-tight text-primaryText-800 dark:text-primaryText-100 sm:text-4xl">
           Work Experience
         </h2>
@@ -96,7 +130,6 @@ export default function Resume() {
             </Card>
           ))}
         </ul>
-
         <div className="relative max-w-lg mx-auto mt-24 lg:max-w-7xl">
           <div>
             <h2 className="mb-6 text-3xl font-bold tracking-tight text-primaryText-800 dark:text-primaryText-100 sm:text-4xl">
